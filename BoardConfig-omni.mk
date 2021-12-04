@@ -1,5 +1,9 @@
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
+# Manifests
+DEVICE_MANIFEST_FILE += device/google/gs101/manifest_radio.xml
+
+# Partitions
 AB_OTA_PARTITIONS += \
 	vendor \
 	vendor_dlkm \
@@ -8,6 +12,7 @@ AB_OTA_PARTITIONS += \
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDOR_DLKMIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
+BOARD_USES_VENDOR_DLKMIMAGE := true
 
 # Enable chained vbmeta for vendor
 BOARD_AVB_VBMETA_VENDOR := vendor
