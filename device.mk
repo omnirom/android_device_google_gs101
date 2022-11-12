@@ -899,7 +899,7 @@ PRODUCT_PACKAGES += ShannonIms
 $(call inherit-product-if-exists, vendor/samsung_slsi/telephony/$(BOARD_USES_SHARED_VENDOR_TELEPHONY)/shannon-iwlan/device-vendor.mk)
 
 #RCS Test Messaging App
-PRODUCT_PACKAGES_DEBUG += \
+#PRODUCT_PACKAGES_DEBUG += \
 	TestRcsApp
 
 PRODUCT_PACKAGES += ShannonRcs
@@ -1159,8 +1159,9 @@ include device/google/gs101/telephony/user.mk
 # Wifi ext
 include hardware/google/pixel/wifi_ext/device.mk
 
+# TODO add as app?
 # Battery Stats Viewer
-PRODUCT_PACKAGES_DEBUG += BatteryStatsViewer
+#PRODUCT_PACKAGES_DEBUG += BatteryStatsViewer
 
 # Install product specific framework compatibility matrix
 # (TODO: b/169535506) This includes the FCM for system_ext and product partition.
