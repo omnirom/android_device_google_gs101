@@ -41,7 +41,8 @@ ifeq ($(DEVICE_IS_64BIT_ONLY),true)
 LOCAL_64ONLY := _64
 endif
 
-AB_OTA_POSTINSTALL_CONFIG += \
+# replaced from device-omni.mk
+#AB_OTA_POSTINSTALL_CONFIG += \
 	RUN_POSTINSTALL_system=true \
 	POSTINSTALL_PATH_system=system/bin/otapreopt_script \
 	FILESYSTEM_TYPE_system=ext4 \
