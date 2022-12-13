@@ -45,5 +45,6 @@
         <!-- Camera -->
         <permission name="android.permission.CAMERA" fixed="false"/>
     </exception>
+
 </exceptions>
 
