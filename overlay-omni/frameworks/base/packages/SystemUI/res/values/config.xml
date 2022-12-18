@@ -1,0 +1,4 @@
+<resources>
+    <!-- Udfps display mode provider class name -->
+    <string name="config_udfpsDisplayModeProviderComponent">com.android.systemui.biometrics.PixelUdfpsDisplayModeProvider</string>
+</resources>
