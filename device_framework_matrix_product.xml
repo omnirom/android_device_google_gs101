@@ -58,7 +58,7 @@
     </hal>
     <hal format="aidl" optional="true">
       <name>com.google.face.debug</name>
-      <version>3</version>
+      <version>4</version>
         <interface>
             <name>IDebugHost</name>
             <instance>default</instance>
@@ -86,16 +86,9 @@
     </hal>
     <hal format="aidl" optional="true">
       <name>com.google.hardware.pixel.display</name>
-        <version>8</version>
+        <version>9</version>
         <interface>
             <name>IDisplay</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="aidl" optional="true">
-        <name>com.google.input.algos.spd</name>
-        <interface>
-            <name>IScreenProtectorDetectorService</name>
             <instance>default</instance>
         </interface>
     </hal>
